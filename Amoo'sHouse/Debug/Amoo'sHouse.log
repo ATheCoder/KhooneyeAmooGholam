@@ -1,0 +1,9 @@
+﻿  Main.cpp
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\child.h(85): warning C4101: 'a': unreferenced local variable
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\child.h(103): warning C4101: 'e': unreferenced local variable
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\main.cpp(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\main.cpp(96): warning C4018: '<': signed/unsigned mismatch
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\main.cpp(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\main.cpp(116): warning C4018: '<': signed/unsigned mismatch
+  Amoo'sHouse.vcxproj -> C:\Users\A\documents\visual studio 2017\Projects\Amoo'sHouse\Debug\Amoo'sHouse.exe
+  Amoo'sHouse.vcxproj -> C:\Users\A\documents\visual studio 2017\Projects\Amoo'sHouse\Debug\Amoo'sHouse.pdb (Partial PDB)

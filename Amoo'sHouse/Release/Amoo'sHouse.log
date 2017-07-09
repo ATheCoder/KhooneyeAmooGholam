@@ -1,0 +1,15 @@
+﻿  Main.cpp
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\Child.h(42): warning C4018: '<': signed/unsigned mismatch
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\Child.h(105): warning C4101: 'a': unreferenced local variable
+c:\users\a\documents\visual studio 2017\projects\amoo'shouse\amoo'shouse\Child.h(123): warning C4101: 'e': unreferenced local variable
+Main.cpp(101): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(108): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(110): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(125): warning C4018: '<': signed/unsigned mismatch
+Main.cpp(153): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  7 of 441 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Amoo'sHouse.vcxproj -> C:\Users\A\documents\visual studio 2017\Projects\Amoo'sHouse\Release\Amoo'sHouse.exe
