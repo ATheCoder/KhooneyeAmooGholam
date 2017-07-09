@@ -8,9 +8,11 @@
 #include "AngryChild.h"
 #include "CowardChild.h"
 #include "PeaceChild.h"
+
 double StringToDouble(string input);
 void RunSimulation(int timeStep, int totalTime);
 using namespace std;
+
 vector <Child*> vectorOfChildren;
 struct WallPos {
 	int posX;
@@ -55,12 +57,12 @@ int main(int argc, char *argv[]) {
 	cin >> numberOfChildren;
 	int i = 0;
 	cout << "id, type, fragile, posX, posY, Vx, Vy, radius, anger, charisma, courage" << endl;
-	/*while (i < numberOfChildren) {
+	while (i < numberOfChildren) {
 		string idStr; string typeStr; string fragileStr; string posXStr; string posYStr; string velXStr; string velYStr; string radiusStr; string angerStr; string charismaStr; string courageStr;
 		int id; bool fragile; double posX; double posY; double velX; double velY; double radius; double anger; double charisma; double courage;
 		cin >> idStr >> typeStr >> fragileStr >> posXStr >> posYStr >> velXStr >> velYStr >> radiusStr >> angerStr >> charismaStr >> courageStr;
 		id = stoi(idStr.substr(0, idStr.find(",")));
-		fragile = (fragileStr == "false" ? false : true);
+		fragile = (fragileStr == "false," ? false : true);
 		posX = StringToDouble(posXStr);
 		posY = StringToDouble(posYStr);
 		velX = StringToDouble(velXStr);
@@ -70,7 +72,6 @@ int main(int argc, char *argv[]) {
 		charisma = StringToDouble(charismaStr);
 		courage = StringToDouble(courageStr);
 		//Child Creation:
-		cout << typeStr << endl;
 		if (typeStr == "Peaceful,") 
 			vectorOfChildren.push_back(new PeaceChild(id, typeStr, fragile, posX, posY, velX, velY, radius, anger, charisma, courage));
 		else if (typeStr == "Angry,")
@@ -78,9 +79,7 @@ int main(int argc, char *argv[]) {
 		else if (typeStr == "Coward,")
 			vectorOfChildren.push_back(new CowardChild(id, typeStr, fragile, posX, posY, velX, velY, radius, anger, charisma, courage));
 		i++;
-	}*/
-	//vectorOfChildren.push_back(new PeaceChild(1, "Peaceful", false, 19, 40, 2, 0, 12, 21, 51, 31));
-	vectorOfChildren.push_back(new PeaceChild(2, "Peaceful", false, 2, 2, -1, 0, 1, 21, 51, 31));
+	}
 	RunSimulation(stoi(argv[1]), stoi(argv[2]));
 	_getch();
 	return 0;
